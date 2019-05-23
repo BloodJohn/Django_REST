@@ -3,7 +3,7 @@ from rest_framework import generics
 from rest_framework.decorators import api_view
 from rest_framework.reverse import reverse
 from rest_framework.response import Response
-from project1_site.serializers import UserSerializer
+from project1_site.serializers import UserSerializer, GroupSerializer
 
 
 @api_view(['GET'])
