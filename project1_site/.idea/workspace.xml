@@ -42,35 +42,10 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="django_rest2" />
+    <favorites_list name="project1_site" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/importlib/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="e#604#673#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding>
-                <element signature="e#84#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,11 +65,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/django_rest2/urls.py" />
-        <option value="$PROJECT_DIR$/django_rest2/settings.py" />
+        <option value="$PROJECT_DIR$/project1_site/urls.py" />
+        <option value="$PROJECT_DIR$/project1_site/settings.py" />
         <option value="$PROJECT_DIR$/quickstart/serializers.py" />
         <option value="$PROJECT_DIR$/quickstart/views.py" />
         <option value="$PROJECT_DIR$/quickstart/urls.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
       </list>
     </option>
   </component>
@@ -104,11 +80,13 @@
     <option name="width" value="2420" />
     <option name="height" value="1320" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,21 +94,10 @@
               <item name="project1_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="project1_site" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="project1_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1_site" type="462c0819:PsiDirectoryNode" />
-              <item name="project1_site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1_site" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,13 +125,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="django_rest2" type="Python.DjangoServer" factoryName="Django server">
-      <module name="django_rest2" />
+    <configuration name="project1_site" type="Python.DjangoServer" factoryName="Django server">
+      <module name="project1_site" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="django_rest2.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="project1_site.settings" />
       </envs>
       <option name="SDK_HOME" value="D:\Projects\JangoGirls\project1\project1_venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -196,27 +163,29 @@
       <workItem from="1558598688984" duration="2033000" />
       <workItem from="1558608762043" duration="598000" />
       <workItem from="1558616043080" duration="1274000" />
-      <workItem from="1558678738405" duration="1864000" />
+      <workItem from="1558678738405" duration="2407000" />
+      <workItem from="1558681813468" duration="27000" />
+      <workItem from="1558681964376" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5769000" />
+    <option name="totallyTimeSpent" value="6660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.25906184" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.26439232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24966443" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5044444" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5977778" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="manage.py@django_rest2" order="7" weight="0.32796487" />
+      <window_info anchor="bottom" id="manage.py@project1_site" order="7" weight="0.32796487" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -242,9 +211,9 @@
     <entry file="file://$PROJECT_DIR$/quickstart/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_rest2/settings.py" />
+    <entry file="file://$PROJECT_DIR$/project1_site/settings.py" />
     <entry file="file://$PROJECT_DIR$/../test_venv/Lib/site-packages/rest_framework/serializers.py" />
-    <entry file="file://$PROJECT_DIR$/django_rest2/urls.py" />
+    <entry file="file://$PROJECT_DIR$/project1_site/urls.py" />
     <entry file="das://cdc82a1c-5da8-4c24-9896-1af6a4e3b736/schema/main/table/auth_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -282,8 +251,8 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/importlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="386">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="e#604#673#0" expanded="true" />
           </folding>
@@ -292,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="119">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
           <folding>
             <element signature="e#84#93#0" expanded="true" />
           </folding>
