@@ -16,4 +16,9 @@ urlpatterns = [
     path('comment/<int:pk>/remove/', views.comment_remove, name='comment_remove'),
 
     path('blogapi/', BlogList.as_view({'get': 'list'}), name='blog-list'),
+    path('blogapi/<int:post_id>/', BlogList.as_view({'get': 'record'}), name='blog-detail'),
+
+    path('blogapi/', BlogList.as_view({'post': 'create'}), name='blog-create'),
+    path('blogapi/<int:post_id>/', BlogList.as_view({'put': 'update'}), name='blog-update'),
+    path('blogapi/<int:post_id>/', BlogList.as_view({'delete': 'delete'}), name='blog-delete'),
 ]
