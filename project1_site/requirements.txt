@@ -1,5 +1,5 @@
 codegen==1.0
-Django==2.2.1
+Django==2.2.27
 djangorestframework==3.9.4
 patterns==0.3
 pytz==2019.1
